@@ -6,6 +6,8 @@ public class SnakeGame {
     final static int WIN_POSITION = 100;
     int position = 0;
     int positionCheck = 0;
+    int noOfDieRolls=0;
+
 
     public static void main(String[] args) {
         System.out.println("Welcome To Snake And Ladder Game");
@@ -48,6 +50,9 @@ public class SnakeGame {
                     break;
             }
         }
+        System.out.println("------------------------");
         System.out.println("Winning Position Is:" + position);
+        System.out.println("Number Of Times The Dice was Played To Win The Game Is:" +noOfDieRolls);
+        System.out.println("---------------------------");
     }
 }
